@@ -18,5 +18,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^fb/', include('messenget.urls')),
+    url(r'^fb/', include('messenger.urls')),
 ]
